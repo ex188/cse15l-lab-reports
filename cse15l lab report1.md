@@ -6,4 +6,5 @@
 
 ## Trying Some Commands
 
-![Image]C:\Users\ABC88\Desktop\CSE 15L\Lab Repot1\Screenshot 2023-04-09 141500.png
+![image](https://user-images.githubusercontent.com/98847913/230797124-d390eab2-7fea-4460-b5f8-32685dcc8d63.png)
+
