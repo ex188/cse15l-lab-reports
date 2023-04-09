@@ -88,3 +88,16 @@ Sun Apr 09, 2023  2:55pm - Prepping cs15lsp23
 Your terminal is connected to CSE basement's computer. 
 
 ## Trying Some Commands
+
+Now try to run some commands in your terminal. Do it both on your computer and the remote computer. 
+You can try the following:
+* ```cd ~```
+* ```cd```
+* ```ls -lat```
+* ```ls -a```
+* ```ls <directory> ```
+ put <directory> as ```/home/linux/ieng6/cs15lsp23/cs15lsp23abc``` where abc is another group members' username. 
+* ```cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/```
+* ```cat /home/linux/ieng6/cs15lsp23/public/hello.txt```
+
+In order to log out of the remote server in your terminal, type ```Ctrl-D``` or run the command ```exit```
