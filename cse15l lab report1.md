@@ -100,4 +100,8 @@ You can try the following:
 * ```cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/```
 * ```cat /home/linux/ieng6/cs15lsp23/public/hello.txt```
 
+You should see something similar to this in your terminal while running remotly:
+ 
+ ![image](https://user-images.githubusercontent.com/98847913/230798791-2d7cc5c8-029b-4a14-ad1a-db7ffce5ac3b.png)
+
 In order to log out of the remote server in your terminal, type ```Ctrl-D``` or run the command ```exit```
