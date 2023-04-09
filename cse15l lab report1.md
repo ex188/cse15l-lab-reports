@@ -27,7 +27,7 @@ It should pop a terminal window on the bottom like this:
 
 ![image](https://user-images.githubusercontent.com/98847913/230797727-b1fa5486-3cc5-46b8-8be2-5ce501137eaa.png)
 
-**If you want to use the Git Bash**
+**If you want to use the Git Bash** (If not, go down where it says Next)
 
 Open the command paltte using Ctrl + Shift + P
 It will be like this:
