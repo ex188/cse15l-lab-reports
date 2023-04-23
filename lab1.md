@@ -96,13 +96,19 @@ You can try the following:
 * ```cd```
 * ```ls -lat```
 * ```ls -a```
+* ```ls -f```
 * ```ls <directory> ```
  put <directory> as ```/home/linux/ieng6/cs15lsp23/cs15lsp23abc``` where abc is another group members' username. 
 * ```cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/```
 * ```cat /home/linux/ieng6/cs15lsp23/public/hello.txt```
+* You can also use ```ls --help``` to find more ```ls``` commands.
 
-You should see something similar to this in your terminal while running remotly:
+You should see something similar to this in your terminal while running on remote computer:
  
+For example, this is a "ls -a" command, it will show all the entries staring from . to your current directory 
  ![image](https://user-images.githubusercontent.com/98847913/230798791-2d7cc5c8-029b-4a14-ad1a-db7ffce5ac3b.png)
+
+Here's another example of doing "ls -f", you will list all the commands in directory order. 
+ ![image](https://user-images.githubusercontent.com/98847913/233855966-7a95f0fb-fadb-410e-93df-0cb3d7808af8.png)
 
 In order to log out of the remote server in your terminal, type ```Ctrl-D``` or run the command ```exit```
