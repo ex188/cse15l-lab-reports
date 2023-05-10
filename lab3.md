@@ -26,15 +26,20 @@ This option allows you to search for files based on their type.
 ./technical/plos/pmed.0020278.txt
 ./technical/plos/pmed.0020281.txt
 ```
+
 (All txt type files came out as result)
 
 * Example 2 (Directories):
 
-```$ find ./technical -type d -name "plos"```
+```
+$ find ./technical -type d -name "plos"
+```
 
 * Output:
 
-```./technical/plos```
+```
+./technical/plos
+```
 
 Source: I found out about the -type option from the official find command manual page. You can access it by running man find in the terminal.
 
@@ -44,7 +49,9 @@ This option allows you to search for files based on their size.
 
 * Example 1 (Files):
 
-```$ find ./technical -type f -size +1k```
+```
+$ find ./technical -type f -size +1k
+```
 
 * Output:
 
@@ -64,7 +71,9 @@ This option allows you to search for files based on their size.
 
 * Example 2 (Directories):
 
-```$ find ./technical -type d -size -100k```
+```
+$ find ./technical -type d -size -100k
+```
 
 * Output:
 
@@ -91,7 +100,9 @@ This option allows you to search for files based on their modification time.
 
 * Example 1 (Files):
 
-```$ find ./technical -type f -mtime -7```
+```
+$ find ./technical -type f -mtime -7
+```
 
 * Output:
 
@@ -112,7 +123,9 @@ This option allows you to search for files based on their modification time.
 
 * Example 2 (Directories):
 
-```$ find ./technical -type d -mtime -1```
+```
+$ find ./technical -type d -mtime -1
+```
 
 * Output:
 
@@ -138,7 +151,9 @@ This option allows you to execute a command on each found file.
 
 * Example 1 (Files):
 
-```$ find ./technical -type f -name "*.txt" -exec cat {} \;```
+```
+$ find ./technical -type f -name "*.txt" -exec cat {} \;
+```
 
 * Output:
 
@@ -149,11 +164,14 @@ This option allows you to execute a command on each found file.
         the design of the study. Author JGV participated in the
         design of the study and in its coordination...
 ```
+
 (A whole lot of text in txt files that get the command ```cat``` and printed out)
 
 * Example 2 (Directories):
 
-```$ find ./technical -type d -name "plos" -exec ls -l {} \;```
+```
+$ find ./technical -type d -name "plos" -exec ls -l {} \;
+```
 
 * Output:
 
